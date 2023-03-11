@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magic 8 ball</title>
     <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
 </head>
 <body>
     <div class="ball">
@@ -24,4 +25,10 @@
         <a href="https://alexis-firebase-672f3.web.app/">Alexis Alvarez</a>
     </div>
 </body>
+<script>
+    var randomcolor = Math.floor(Math.random() *
+    16777215).toString(16);
+    
+    document.body.style.backgroundColor = "#" + randomcolor
+    </script>
 </html>
