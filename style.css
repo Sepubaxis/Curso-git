@@ -57,3 +57,25 @@ button:hover {
 button:active {
     background-color: white;
 }
+
+#respuesta {
+    width: 70px;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+.parteblanca {
+    background-color: white;
+    height: 140px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.alexis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
